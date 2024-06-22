@@ -19,7 +19,7 @@ class WeatherDetailActivity : AppCompatActivity() {
         detailTextView = findViewById(R.id.weather_detail)
         val cityName = intent.getStringExtra("CITY_NAME") ?: return
 
-        fetchWeatherDetails(cityName, "8bd453185c1b4e80733c92a514dc2974")
+        fetchWeatherDetails(cityName, BuildConfig.API_KEY)
     }
 
     private fun fetchWeatherDetails(cityName: String, apiKey: String) {

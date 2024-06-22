@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             if (actionId == EditorInfo.IME_ACTION_DONE) {
                 val cityName = searchView.text.toString().trim()
                 if (cityName.isNotEmpty()) {
-                    fetchWeatherData(cityName, "8bd453185c1b4e80733c92a514dc2974")
+                    fetchWeatherData(cityName, BuildConfig.API_KEY)
                 }
                 true
             } else {
