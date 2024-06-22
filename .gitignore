@@ -1,0 +1,52 @@
+# Gradle files
+.gradle
+/local.properties
+
+# Android Studio files
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# macOS files
+.DS_Store
+
+# Build directories
+/build
+/app/build
+
+# Captures
+/captures
+
+# Exclude all the gradle files
+/externalNativeBuild
+.cxx
+
+# Keystore files
+*.jks
+*.keystore
+
+# Proguard folder generated during build
+proguard/
+
+# Log files
+*.log
+
+# Google Services (this file needs to be created manually and contains API keys)
+/app/google-services.json
+
+# IntelliJ IDEA specific files
+*.iws
+*.ipr
+*.iml
+
+# APK files
+*.apk
+*.ap_
+
+# Android Studio generated files
+/captures
+.externalNativeBuild
+.cmake
